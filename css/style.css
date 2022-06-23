@@ -1,0 +1,114 @@
+
+
+@font-face {
+    font-family: DMSans;
+    src: url(/fonts/dmsans/DMSans-Regular.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DMSans';
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.2;
+ }
+
+ /**Nav bar Styles**/
+.fa-code{
+    padding: 0 1rem 0 1rem;
+}
+
+.navbar{
+    height: 10%;
+    padding: 1rem 0 1rem 0;
+}
+
+
+
+.navbar-brand{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;  
+}
+
+.navbar-brand:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+
+}
+
+.nav-link{
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: auto;
+    margin: auto;
+}
+
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
+
+.dropdown-menu,
+.dropdown-item {
+    color: white;
+}
+.dropdown-item:hover{
+    font-weight: 800;
+    color: blue;
+}
+
+/*Section Hero*/
+.intro h1{
+    font-family: 'DMSans';
+    font-weight: 400;
+}
+.intro p{
+    font-weight: 200;
+}
+.sect-bg{
+    background-color: #1D2A35;
+}
+
+section{
+    flex-direction: column;
+    position: relative;
+    min-height: 400px;
+    padding: 100px 20vw;
+    
+}
+
+
+
+.hero-curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.hero-curve svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 100px;
+}
+
+.hero-curve .shape-fill {
+    fill: #FB4B1A;
+}
+
+
+/*Section Html*/
