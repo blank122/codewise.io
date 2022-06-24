@@ -13,7 +13,7 @@
 }
 
 body{
-    font-family: 'DMSans';
+    font-family: 'DMSans', sans-serif;
     font-weight: 500;
     font-size: 1.2rem;
     line-height: 1.2;
@@ -52,6 +52,9 @@ body{
     margin: auto;
 }
 
+.navigation-links:hover{
+    background-color: #FB4B1A;
+}
 
 .dropdown:hover .dropdown-menu{
     display: block;
