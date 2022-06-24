@@ -19,6 +19,12 @@ body{
     line-height: 1.2;
  }
 
+h1{
+    font-family: 'DMSans', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
  /**Nav bar Styles**/
 .fa-code{
     padding: 0 1rem 0 1rem;
