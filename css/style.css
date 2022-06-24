@@ -111,4 +111,14 @@ section{
 }
 
 
-/*Section Html*/
+/*Section web-dev*/
+.btn-1{
+    background-color: #4A9DC9;
+    color: #FAFAFA;
+}
+
+.intro .btn-1:hover{
+    background-color: #FAFAFA;
+    color: black;
+    border: 1px solid #FB4B1A;
+}
